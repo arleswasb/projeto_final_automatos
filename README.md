@@ -1,6 +1,5 @@
-Aqui tens o conteúdo completo e formatado do ficheiro `README.md` para copiares e colares diretamente na raiz do teu repositório:
 
-```markdown
+
 # Tradutor de Expressões Aritméticas (Compilador Front-End)
 
 Este repositório contém a implementação completa de um **Tradutor e Interpretador de Expressões Aritméticas**, desenvolvido como requisito avaliativo para o Trabalho Final da disciplina **Autômatos e Linguagens Formais (DCA-3705)**, ministrada pelo **Prof. Luiz Affonso Guedes** na Universidade Federal do Rio Grande do Norte (UFRN).
