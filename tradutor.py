@@ -74,7 +74,7 @@ def lexer(codigo_fonte):
     return tokens
 
 # -----------------------------------------------------------------------------
-# 3. PARSER E GERADOR CORRIGIDO
+# 3. PARSER E GERADOR
 # -----------------------------------------------------------------------------
 class Parser:
     def __init__(self, tokens):

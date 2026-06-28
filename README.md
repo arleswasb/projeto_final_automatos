@@ -12,9 +12,9 @@ O software contempla todas as subetapas fundamentais do *front-end* de um compil
 
 O compilador opera em modo REPL (*Read-Eval-Print Loop*), aceitando entradas contínuas e avaliando-as em tempo real com os seguintes suportes:
 - **Análise Léxica via RegEx:** Mapeamento eficiente e preciso de tokens em conformidade com as regras aritméticas formais.
-- **Ignorância de Espaços Transparentes:** Aceitação de qualquer quantidade de espaços em branco inseridos arbitrariamente no meio da expressão (Garante **+1,0 ponto** no esquema de pontuação).
-- **Suporte a Múltiplos Dígitos:** Leitura unificada de dezenas, centenas e milhares como tokens numéricos individuais (Garante **+1,0 ponto** no esquema de pontuação).
-- **Suporte a Ponto Flutuante:** Capacidade de analisar e calcular expressões utilizando decimais separados por ponto (Garante **+1,0 ponto** extra no esquema de pontuação, ex: `2.5 * 4`).
+- **Ignorância de Espaços Transparentes:** Aceitação de qualquer quantidade de espaços em branco inseridos arbitrariamente no meio da expressão.
+- **Suporte a Múltiplos Dígitos:** Leitura unificada de dezenas, centenas e milhares como tokens numéricos individuais.
+- **Suporte a Ponto Flutuante:** Capacidade de analisar e calcular expressões utilizando decimais separados por ponto.
 - **Análise Sintática Preditiva LL(1):** Execução orientada por Parser Descendente Recursivo estável e sem necessidade de retrocesso (*backtracking*).
 - **Tratamento Preciso de Erros:** Identificação de falhas sintáticas ou léxicas apontando o caractere faltante/incorrecto e seu índice de localização exato.
 - **Geração de Código de Três Endereços (C3E):** Linearização matemática sequencial em variáveis temporárias (`t0, t1`), preservando a prioridade dos parênteses e operadores.
